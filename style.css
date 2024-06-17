@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-color: rgb(236, 238, 238);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  line-height: 1.7;
+}
+
+.container {
+  margin: 0;
+  width: 50%;
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 4%;
+  border: 1px solid lightgrey;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(79, 79, 119);
+  line-height: normal;
+}
+
+h1 {
+  font-size: 2.5vw;
+}
+
+h2 {
+  font-size: 1.5vw;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.list-inline>li {
+  display: inline-block;
+}
+
+.list-inline>ul {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+  margin: 0;
+}
+
+.img-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+button {
+  padding: 2% 3%;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 0;
+}
+
+button:hover {
+  background-color: rgb(111, 111, 133);
+}
+
+a:hover {
+  color: rgb(79, 79, 119);
+}
+
+/*media queries*/
+@media (max-width: 960px) {
+
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
